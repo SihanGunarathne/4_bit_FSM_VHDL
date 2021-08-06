@@ -1,0 +1,46 @@
+# Compile of Four_bit_FSM.vhd failed with 1 errors.
+# Compile of Four_bit_FSM.vhd failed with 1 errors.
+# Compile of Four_bit_FSM.vhd failed with 1 errors.
+# Compile of Four_bit_FSM.vhd was successful.
+# Compile of Four_bit_FSM_Testbench.vhd was successful.
+# Compile of Four_bit_FSM.vhd failed with 3 errors.
+# Compile of Four_bit_FSM.vhd failed with 16 errors.
+# Compile of Four_bit_FSM.vhd was successful.
+# Compile of Four_bit_FSM_Testbench.vhd was successful.
+vsim work.four_bit_fsm_testbench
+# vsim work.four_bit_fsm_testbench 
+# Start time: 01:39:21 on May 08,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.four_bit_fsm_testbench(behavior)
+# Loading work.four_bit_fsm(behavioral)
+add wave -position end  sim:/four_bit_fsm_testbench/clock
+add wave -position end  sim:/four_bit_fsm_testbench/reset
+add wave -position end  sim:/four_bit_fsm_testbench/sequence_in
+add wave -position end  sim:/four_bit_fsm_testbench/Ready
+add wave -position end  sim:/four_bit_fsm_testbench/Waiting
+add wave -position end  sim:/four_bit_fsm_testbench/clock_period
+# Compile of Four_bit_FSM_Testbench.vhd was successful.
+vsim work.four_bit_fsm_testbench
+# End time: 01:42:04 on May 08,2021, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 15
+# vsim work.four_bit_fsm_testbench 
+# Start time: 01:42:04 on May 08,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.four_bit_fsm_testbench(behavior)
+# Loading work.four_bit_fsm(behavioral)
+add wave -position end  sim:/four_bit_fsm_testbench/clock
+add wave -position end  sim:/four_bit_fsm_testbench/reset
+add wave -position end  sim:/four_bit_fsm_testbench/sequence_in
+add wave -position end  sim:/four_bit_fsm_testbench/Ready
+add wave -position end  sim:/four_bit_fsm_testbench/Waiting
+add wave -position end  sim:/four_bit_fsm_testbench/clock_period
+run
+# WARNING: No extended dataflow license exists
+# Compile of Four_bit_FSM.vhd was successful.
+# Compile of Four_bit_FSM_Testbench.vhd was successful.
+# End time: 02:08:15 on May 08,2021, Elapsed time: 0:26:11
+# Errors: 0, Warnings: 3
